@@ -1,6 +1,6 @@
 html {
     min-height: 100%;
-    height: -webkit-fill-available;
+    max-width: fit-content;
 }
 
 #wrapper {
@@ -360,14 +360,6 @@ a img:hover {
 
 }
 
-.repeated {
-    width: 1885px;
-    height: auto;
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 /*Footer*/
 
 footer {
@@ -536,4 +528,4 @@ footer {
 /*--------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------*/
 
-/*TABLET SIZE*/
+
