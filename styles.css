@@ -365,16 +365,9 @@ a img:hover {
 footer {
     color: #FFFFFF;
     background-color: #000000;
-    list-style: none;
     text-align: center;
     padding-top:10px;
-    bottom: 0;
-    left: 0;
-}
 
-.inner-footer {
-    margin: 0;
-    padding: 0;
 }
 
 .social a{
@@ -482,23 +475,19 @@ footer {
         list-style: none;
         text-align: center;
         padding-top:10px;
-        bottom: 0;
-        left: 0;
-        right: 0;
     }
 
     .inner-footer {
-        margin: 0;
-        padding: 0;
+        margin: auto;
     }
 
     .social a{
         visibility: hidden;
     }
 
-    /*Index Ends*/
+    /*/////Index Ends/////*/
 
-    /*Menu*/
+    /*/////Menu/////*/
     nav {
         position: fixed;
         display: block;
@@ -519,7 +508,50 @@ footer {
         margin: auto;
 
     }  
-    /*Menu*/
+    /*/////Menu End/////*/
+
+
+    /*//////////////About CSS//////////////*/
+
+    .about-logo {
+        width: 150px;
+        margin-left: 100px;
+    }
+
+    #about-sec {
+        margin-left: 100px;
+    }
+
+    .about-one {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 600px;
+    }
+
+    .about-one img {
+        padding: 20px;
+    }
+
+    .about-one p {
+        margin-left: 40px;
+        line-height: 2.35;
+        width: 1000px;
+    }
+
+    .about-two {
+        display: flex;
+        margin-right: 400px;
+        margin-left: 100px;
+        padding-top: 30px;
+    }
+
+    .about-two p {
+        margin-right: 40px;
+        line-height: 2.35;
+        width: 1000px;
+    }
+
+/*//////////////About CSS ends//////////////*/
 
 }
 
