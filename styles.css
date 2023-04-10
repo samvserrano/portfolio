@@ -560,56 +560,23 @@ footer {
 
     .row1 {
         display: block;
-        margin-left: 200px;
-    }
-
-    .global {
-        display: inline;
-    }
-
-    .global section {
-        padding-left: 30px;
-    }
-
-    .global p{
-        width: 200px;
-    }
-
-    .music p {
-        width: 200px;
-    }
-
-    .music {
-        padding-left: 60px;
-        margin-left: 10px;
+        width: 100px;
+        margin-left: 50px;
     }
 
     .row2 {
         display: block;
-        margin-left: 200px;
-    }
-
-    .ghost p {
-        width: 200px;
-    }
-
-    .dua {
-        padding-left: 60px;
-        margin-left: 10px;
-    }
-
-    .dua p {
-        width: 200px;
+        width: 100px;
+        margin-left: 50px;
     }
 
     .row3 {
         display: block;
-        margin-left: 200px;
+        width: 100px;
+        margin-left: 50px;
     }
 
-    .nam p {
-        width: 200px;
-    }
+
 
 /*//////////////Work CSS ends//////////////*/
 
