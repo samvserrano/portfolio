@@ -532,27 +532,28 @@ footer {
         width: 400px;
         height: fit-content;
         margin-left: -200px;
-
     }
 
     .about-one p {
-        margin-left: -40px;
+        margin-left: -180px;
         line-height: 2.35;
-        width: 1000px;
-
+        width: 400px;
     }
 
     .about-two {
-        display: flex;
-        margin-right: 400px;
-        margin-left: 100px;
-        padding-top: 30px;
+        display: block;
+    }
+
+    .about-two img {
+        width: 400px;
+        height: fit-content;
+        margin-left: -180px;
     }
 
     .about-two p {
-        margin-right: 40px;
+        margin-left: -180px;
         line-height: 2.35;
-        width: 1000px;
+        width: 400px;
     }
 
 /*//////////////About CSS ends//////////////*/
