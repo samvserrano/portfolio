@@ -365,9 +365,16 @@ a img:hover {
 footer {
     color: #FFFFFF;
     background-color: #000000;
+    list-style: none;
     text-align: center;
     padding-top:10px;
+    bottom: 0;
+    left: 0;
+}
 
+.inner-footer {
+    margin: 0;
+    padding: 0;
 }
 
 .social a{
@@ -379,7 +386,7 @@ footer {
 
 /*MOBILE*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
 
     html {
         min-width: 100%;
@@ -416,9 +423,9 @@ footer {
 
     h1 {
         font-family: changeling-neo, sans-serif;
-        font-size: 60px;
-        margin-left: 400px;
-        margin-top: -130px;
+        font-size: 40px;
+        margin-left: 180px;
+        margin-top: -50px;
     }
 
     .phoenix h2 {
@@ -510,32 +517,29 @@ footer {
     }  
     /*/////Menu End/////*/
 
-
     /*//////////////About CSS//////////////*/
 
     .about-logo {
-        width: 150px;
-        margin-left: 100px;
-    }
-
-    #about-sec {
-        margin-left: 100px;
+        width: 80px;
+        margin-left: 50px;
     }
 
     .about-one {
-        display: flex;
-        margin-left: 100px;
-        margin-right: 600px;
+        display: block;
     }
 
     .about-one img {
-        padding: 20px;
+        width: 400px;
+        height: fit-content;
+        margin-left: -200px;
+
     }
 
     .about-one p {
-        margin-left: 40px;
+        margin-left: -40px;
         line-height: 2.35;
         width: 1000px;
+
     }
 
     .about-two {
