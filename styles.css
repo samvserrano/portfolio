@@ -1,6 +1,5 @@
 html {
     min-height: 100%;
-    max-width: fit-content;
 }
 
 #wrapper {
@@ -496,7 +495,7 @@ footer {
         position: fixed;
         font-size: 25px;
         font-family: changeling-neo, sans-serif;
-        margin-left: 270px;
+        margin-left: 260px;
         background-color: #f05c22;
         border: 2px solid #FFFFFF;
         border-radius: 40px;
@@ -507,7 +506,7 @@ footer {
         list-style: none;
         text-align: right;
         font-size: 20px;
-        margin: auto;
+        margin: 0 -7px;
 
     }  
     /*/////Menu End/////*/
@@ -678,7 +677,7 @@ footer {
 /*//////////////Contact CSS//////////////*/
 
     .contact {
-        margin-left: 500px;
+        margin-left: 30px;
         padding-bottom: 100px;
     }
 
@@ -697,21 +696,20 @@ footer {
     }
 
     .contact h2 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .contact p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact a {
-        font-size: 25px;
+        font-size: 16px;
     }
 
-    .contacts-mobile {
-        visibility: hidden;
+    .social a{
+        visibility: visible;
     }
-
 /*//////////////Contact CSS ends//////////////*/
 
 }
