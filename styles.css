@@ -577,7 +577,7 @@ footer {
         margin-left: 50px;
     }
 
-    /*//////////////Global Pristine CSS//////////////*/
+/*//////////////Global Pristine CSS//////////////*/
 
     .text {
         margin-left: 20px;
@@ -611,9 +611,9 @@ footer {
         margin-left: 20px;
     }
 
-    /*//////////////Global Pristine CSS ends//////////////*/
+/*//////////////Global Pristine CSS ends//////////////*/
 
-    /*//////////////Music Art CSS//////////////*/
+/*//////////////Music Art CSS//////////////*/
 
     .arrow {
         width: 20px;
@@ -644,36 +644,75 @@ footer {
         font-size: 30px;
         color: #FFFFFF;
     }
-    /*//////////////Music Art CSS ends//////////////*/
+/*//////////////Music Art CSS ends//////////////*/
 
 
-    /*//////////////Ghost Shell CSS//////////////*/
+/*//////////////Ghost Shell CSS//////////////*/
 
     .gits-img img {
         width: 450px;
     }
 
-    /*//////////////Ghost Shell CSS ends//////////////*/
+/*//////////////Ghost Shell CSS ends//////////////*/
 
 
-    /*//////////////Dua Lipa CSS//////////////*/
+/*//////////////Dua Lipa CSS//////////////*/
 
     .dl-img img {
         width: 450px;
     }
 
-    /*//////////////Dua Lipa CSS ends//////////////*/
+/*//////////////Dua Lipa CSS ends//////////////*/
 
 
-    /*//////////////Nami CSS//////////////*/
+/*//////////////Nami CSS//////////////*/
     .nb-img img {
         width: 450px;
     }
-    /*//////////////Nami CSS ends//////////////*/
+/*//////////////Nami CSS ends//////////////*/
 
 
 
 /*//////////////Work CSS ends//////////////*/
+
+/*//////////////Contact CSS//////////////*/
+
+    .contact {
+        margin-left: 500px;
+        padding-bottom: 100px;
+    }
+
+    .contact a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+
+    .contact a {
+        color: #000000;
+    }
+
+    .contact a:hover {
+        color: #2213e2;
+        transition: .5s;
+    }
+
+    .contact h2 {
+        font-size: 40px;
+    }
+
+    .contact p {
+        font-size: 25px;
+    }
+
+    .contact a {
+        font-size: 25px;
+    }
+
+    .contacts-mobile {
+        visibility: hidden;
+    }
+
+/*//////////////Contact CSS ends//////////////*/
 
 }
 
