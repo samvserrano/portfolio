@@ -524,7 +524,7 @@ footer {
 
     .about-one img {
         width: 400px;
-        height: fit-content;
+        height: 400px;
         margin-left: -200px;
     }
 
@@ -540,7 +540,7 @@ footer {
 
     .about-two img {
         width: 400px;
-        height: fit-content;
+        height: 550px;
         margin-left: -180px;
     }
 
@@ -559,8 +559,8 @@ footer {
     }
 
     .row1 {
-        display: flex;
-        margin-left: 600px;
+        display: block;
+        margin-left: 200px;
     }
 
     .global {
@@ -585,8 +585,8 @@ footer {
     }
 
     .row2 {
-        display: flex;
-        margin-left: 600px;
+        display: block;
+        margin-left: 200px;
     }
 
     .ghost p {
@@ -603,8 +603,8 @@ footer {
     }
 
     .row3 {
-        display: flex;
-        margin-left: 600px;
+        display: block;
+        margin-left: 200px;
     }
 
     .nam p {
