@@ -134,7 +134,7 @@ p {
 /*- - - - -RESPONSIVE CSS STARTS- - - - -*/
 
 /*- MOBILE -*/
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     .hamburger {
         position: relative;
         display: block;
