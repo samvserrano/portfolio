@@ -303,6 +303,37 @@ p {
 /*- TABLET -*/
 @media (max-width: 481px) {
 
+/*- - - home - - - */
+
+        header h1 {
+            padding: 30px;
+        }
+
+        .phoenix {
+            font-size: 40px;
+            padding: 150px;
+            justify-content: center;
+        }
+
+        .phoenix p {
+            font-size: 12px;
+        }
+
+        .pictures {
+            display: grid;
+            margin-left: 50px;
+        }
+
+        .pictures div { 
+            z-index: 2;
+        }
+
+        .pictures img {
+            width: 400px;
+        }
+
+        /*- - - home - - - */
+
     header {
         display: grid;
         grid-template-columns: 2;
