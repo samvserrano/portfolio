@@ -1,0 +1,470 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*- - - - -End of Reset- - - - -*/
+
+
+
+
+
+
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+}
+
+ul {
+    font-family: 'Roboto Mono', monospace;
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+footer {
+    font-family: 'VT323', monospace;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.back p{
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
+
+.back a{
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    list-style: none;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.arrow {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.gp-summary.title {
+    font-size: 30px;
+}
+
+.gp-img a {
+    background-color: #ff7627;
+}
+
+.gp-img h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.gp-img p {
+    font-family: 'VT323', monospace;
+}
+
+
+
+/*- - - - -RESPONSIVE CSS STARTS- - - - -*/
+
+/*- MOBILE -*/
+@media (max-width: 320px) {
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        cursor: pointer;
+        background-color: #000;
+
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+    }
+
+    .hamburger .bar, .hamburger:after, .hamburger:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #000;
+        margin: 6px 0px;
+        transition: 0.4s;
+    }
+
+    .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-7px, 6px);
+        z-index: 100;
+        position: relative;
+    }
+
+    .hamburger.is-active:after{
+        transform: rotate(45deg) translate(-8px, -7px);
+        z-index: 100;
+        position: relative;
+    }
+
+    .hamburger.is-active .bar{
+        opacity: 0;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        min-height: 100vh;
+        z-index: 98;
+        background-color: #6aabe0;
+        padding-top: 120px;
+        transition: 0.4s;
+        font-family: 'VT323', monospace;
+        }
+
+        .mobile-nav.is-active {
+            left: 0;
+        }
+
+        .mobile-nav, li a {
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .mobile-nav a {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto 16px;
+            text-align: center;
+            margin-bottom: 16px;
+            padding: 16px;
+            color: #000;
+        }
+
+        .gp-summary p {
+            padding: 100px;
+            margin: 100px;
+        }
+
+        .gp-img {
+            display: inline;
+        }
+    
+}
+
+@media (min-width: 480px) {
+    .gp-img {
+        display: inline;
+    }
+
+    .gp-summary p {
+            padding: 50px;
+            margin: 50px;
+        }
+    
+}
+
+/*- TABLET -*/
+@media (max-width: 481px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 2;
+    }
+
+    .gp-img {
+        display: flex;
+        margin: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .hamburger {
+        visibility: hidden;
+    }
+
+    .mobile-nav {
+        visibility: hidden;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    header nav a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    header nav a:hover {
+        color: #ff7627;
+        transition: .2s;
+    }
+
+}
+
+/*- LAPTOP -*/
+@media (max-width: 769px) {
+
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        cursor: pointer;
+        background-color: #000;
+        float: right;
+
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+    }
+
+    .hamburger .bar, .hamburger:after, .hamburger:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #000;
+        margin: 6px 0px;
+        transition: 0.4s;
+    }
+
+    .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-7px, 6px);
+        z-index: 100;
+        position: relative;
+    }
+
+    .hamburger.is-active:after{
+        transform: rotate(45deg) translate(-8px, -7px);
+        z-index: 100;
+        position: relative;
+    }
+
+    .hamburger.is-active .bar{
+        opacity: 0;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        min-height: 100vh;
+        z-index: 98;
+        background-color: #6aabe0;
+        padding-top: 120px;
+        transition: 0.4s;
+        font-family: 'VT323', monospace;
+    }
+
+    .mobile-nav.is-active {
+        left: 0;
+    }
+
+    .mobile-nav, li a {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .mobile-nav a {
+        display: block;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto 16px;
+        text-align: center;
+        margin-bottom: 16px;
+        padding: 16px;
+        color: #000;
+    }
+
+    header nav {
+    visibility: hidden;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+/*- DESKTOP -*/
+@media (min-width: 1025px) {
+    
+    header {
+        margin-left: 50px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .phoenix {
+        padding: 200px;
+        margin-bottom: 400px;
+    }
+
+    .phoenix h2 {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .phoenix p {
+        font-size: 12px;
+        font-family: 'Roboto Mono', monospace;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pictures {
+        margin-left: 450px;
+    }
+
+    .pictures img {
+        width: 1000px;
+        margin-bottom: 10px;
+    }
+
+    .pictures a:hover {
+        opacity: 0.5;
+        transition: .2s;
+        background-color: #ff7627;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        background-color: #ff7627;
+        color: #fff;
+    }
+
+    /*- - - contact - - -*/
+    
+    #contact-sec {
+        margin-left: 65px;
+    }
+
+    .email a {
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Roboto Mono', monospace;
+        color: #ff7627;
+    }
+
+    .res a {
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Roboto Mono', monospace;
+        color: #6aabe0;
+    }
+
+    #contact-sec h2 {
+        font-size: 30px;
+    }
+
+    .socialIcons li {
+        display: inline;
+    }
+
+    .socials {
+        width: 50px;
+    }
+    /*- - - contact ENDS - - -*/
+
+    .back {
+    margin-left: 50px;
+    }
+
+    .gp-summary p {
+        margin: 500px;
+    }
+
+    .gp-img {
+        display: flex;
+        margin: 500px;
+        margin-bottom: 50px;
+    }
+
+
+}
