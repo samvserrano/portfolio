@@ -216,18 +216,87 @@ p {
         .gp-img {
             display: inline;
         }
+
+        .about-sum {
+            padding: 100px;
+            margin: 100px;
+        }
     
 }
 
 @media (min-width: 480px) {
-    .gp-img {
-        display: inline;
-    }
 
-    .gp-summary p {
+        /*- - - home - - - */
+
+        header h1 {
+            padding: 30px;
+        }
+
+        .phoenix {
+            font-size: 40px;
+            padding: 150px;
+            justify-content: center;
+        }
+
+        .phoenix p {
+            font-size: 12px;
+        }
+
+        .pictures {
+            display: grid;
+            margin-left: 50px;
+        }
+
+        .pictures div { 
+            z-index: 2;
+        }
+
+        .pictures img {
+            width: 400px;
+        }
+
+        /*- - - home - - - */
+
+
+
+        .gp-img {
+            display: inline;
+        }
+
+        .gp-summary p {
             padding: 50px;
             margin: 50px;
         }
+
+        /*- - - about - - -*/
+
+        .about-sum {
+            padding: 5px;
+            margin: 50px;
+        }
+        
+        .about-pics {
+            display: grid;
+            margin-left: 50px;
+        }
+
+        .top { 
+            grid-area: 1 / 1 / 2 / 2; 
+        }
+
+        .bottom { 
+            grid-area: 3 / 1 / 4 / 2; 
+        }
+
+        .about-pics div { 
+            z-index: 2;
+        }
+
+        .about-pics img {
+            width: 400px;
+        }
+
+        /*- - - about - - -*/
     
 }
 
@@ -419,6 +488,15 @@ p {
         color: #fff;
     }
 
+    /*- - - about - - -*/
+
+    .about-sum {
+        display: flex;
+        margin: 400px;
+    }
+
+    /*- - - about - - -*/
+
     /*- - - contact - - -*/
     
     #contact-sec {
@@ -456,6 +534,7 @@ p {
     margin-left: 50px;
     }
 
+    /*global prstine CSS*/
     .gp-summary p {
         margin: 500px;
     }
@@ -465,6 +544,29 @@ p {
         margin: 500px;
         margin-bottom: 50px;
     }
+    /*global prstine CSS*/
 
+    /*- - - about - - -*/
+    .about-pics {
+        display: grid;
+        justify-content: center;
+    }
 
+    .top { 
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+
+    .bottom { 
+        grid-area: 3 / 1 / 4 / 2; 
+    }
+
+    .about-pics div { 
+        z-index: 2;
+    }
+
+    .about-pics img {
+        width: 1000px;
+    }
+
+        /*- - - about - - -*/
 }
