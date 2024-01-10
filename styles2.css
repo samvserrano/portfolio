@@ -107,6 +107,11 @@ p {
     list-style: none;
 }
 
+.back a:hover {
+    color: #ff7627;
+    transition: .2s;
+}
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
