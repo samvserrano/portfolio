@@ -51,7 +51,9 @@ table {
 
 
 
-
+html {
+    background-color: #bfbdb6;
+}
 
 
 
@@ -281,7 +283,7 @@ p {
         }
 
         .aby-img div img{
-            width: 200px;
+            width: 150px;
         }
         /*- - - abssy - - -*/
 
@@ -352,7 +354,7 @@ p {
         }
 
         .aby-img div img{
-            width: 350px;
+            width: 300px;
         }
         /*- - - abssy - - -*/
 
@@ -499,14 +501,6 @@ p {
         }
 
         /*- - - home - - - */
-
-    
-
-    .gp-img {
-        display: flex;
-        margin: 200px;
-        margin-bottom: 20px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -679,7 +673,7 @@ p {
     footer {
         display: flex;
         justify-content: center;
-        background-color: #ff7627;
+        background-color: #af7e72;
         color: #fff;
     }
 
