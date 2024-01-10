@@ -61,12 +61,6 @@ main {
   flex: 1;
 }
 
-footer {
-  color: #000;
-  text-align: center;
-  padding: 10px;
-}
-
 html {
     background: linear-gradient(to bottom, #979385, #ffffff);
 }
