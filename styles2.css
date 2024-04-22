@@ -285,7 +285,7 @@ footer p {
     text-align: center;
     color: #4CBED8;
     background-color: #262626;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     padding-bottom: 30px;
     font-size: 12px;
@@ -325,3 +325,30 @@ footer p {
     filter: opacity(50%);
     transition: .4s;
 }
+
+/* 1179×2556 pixels at 460ppi IPHONE */
+
+@media only screen 
+    and (width: 393px) 
+    and (height: 852px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+    
+        #wrapper {
+            max-width: 393px;
+            margin: 0 70px;
+            padding: 10px;
+            background-color: #8f1c1c;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 60px;
+            color: #262626;
+            font-family: "pf-videotext", sans-serif;
+        }
+
+    }
