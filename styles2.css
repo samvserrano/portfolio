@@ -81,7 +81,7 @@ header {
     margin: 20px;
     background-color: #FFFFFF;
     z-index: 99;
-    filter: opacity(90%);
+    filter: opacity(80%);
 }
 
 header button {
@@ -125,7 +125,7 @@ nav ul li a:hover {
 .intro {
     position: relative;
     text-align: center;
-    padding: 300px;
+    padding: 100px;
     margin: 0 auto;
 }
 
@@ -148,7 +148,7 @@ nav ul li a:hover {
 .work-intro {
     position: relative;
     text-align: center;
-    padding: 300px;
+    padding: 150px 300px 60px;
     margin: 0 auto; 
 }
 
@@ -162,6 +162,65 @@ nav ul li a:hover {
     color: #FFFFFF;
     font-family: "pf-videotext", sans-serif;
 }
+
+/* Work Description */
+.desc {
+    font-size: 14px;
+    color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 300px 0px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.bold {
+    font-weight: bold;
+    color: #4CBED8;
+    text-decoration: none;
+}
+
+.column a:hover {
+    color: #262626;
+    transition: .4s;
+}
+
+.bold a:visited {
+    text-decoration: none;
+    color: #4CBED8;
+}
+
+.column p {
+    line-height: 2;
+    text-indent: 10px;
+}
+
+.column img {
+    margin-left: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin: 20px 0 0;
+}
+
+.grid2 img {
+    width: 250px;
+}
+/* Work Description END */
+
 
 .examples {
     text-align: center;
