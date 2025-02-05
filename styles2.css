@@ -473,7 +473,7 @@ footer p {
 /* 1179×2556 pixels at 460ppi IPHONE */
 
 
-@media (width: 390px) 
+@media screen and (max-width: 390px)  
     {
 
         /* Hamburger Menu 
@@ -509,14 +509,15 @@ footer p {
             background-color: black;
             margin: 6px 0px;
             transition: 0.4s;
+            margin-right: -90px;
         }
 
         .hamburger.is-active:before {
-            transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-40px, -15px);
         }
 
         .hamburger.is-active:after {
-            transform: rotate(45deg) translate(-9px, -6px);
+            transform: rotate(45deg) translate(-30px, 25px);
         }
 
         .hamburger.is-active .bar {
@@ -532,6 +533,7 @@ footer p {
             display: block;
             z-index: 98;
             background-color: #4CBED8;
+            opacity: 80%;
             padding-top: 120px;
             transition: 0.4s;
             visibility: visible;
@@ -572,3 +574,6 @@ footer p {
         }
     
     }
+
+
+    
