@@ -70,6 +70,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 header {
@@ -176,7 +177,7 @@ h2 {
 }
 
 .samples-images p {
-    font-size: 14px;
+    font-size: 11px;
     font-family: monospace;
     font-weight: bold;
 }
