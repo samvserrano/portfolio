@@ -377,3 +377,22 @@ footer p {
     font-weight: bold;
 }
 
+
+
+
+
+
+.proj {
+    text-align: center;
+}
+
+.proj .proj-images {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.proj-images img{
+    width: 350px;
+    padding: 20px;
+    border-radius: 25px;
+}

@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel V Serrano - Visual & Web Design</title>
+    <title>Samuel V Serrano - KIA</title>
     <link rel="stylesheet" href="styles.css">
+
+        <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
     <body>
+        <button class="scroll-up-btn">
+            <i class="arrow-up"></i>
+        </button>
+
         <header>
             <nav>
                 <div class="nav-container">
+
+                    <div class="off-screen-menu">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="work.html">work</a></li>
+                            <li><a href="https://www.linkedin.com/in/samuelvegaserrano/" target="_blank">linkedin</a></li>
+                            <li><a href="https://bsky.app/profile/samvserrano.bsky.social" target="_blank">bluesky</a></li>
+                        </ul>
+                    </div>
 
                     <div class="menu-icon">
                         <span></span>
@@ -65,6 +85,27 @@
             <br> 
             CONJURED UP BY ME, SAMUEL &#128512</p>
         </footer>
+
+        <script>
+            const btn = document.querySelector(".scroll-up-btn");
+
+            btn.addEventListener("click", () => {
+                document.documentElement.scrollTo ({
+                    top: 0,
+                    behavior: "smooth",
+                });
+            });
+
+
+            const menuIcon = document.querySelector('.menu-icon');
+            
+            const offScreenMenu = document.querySelector('.off-screen-menu');
+
+            menuIcon.addEventListener('click', () => {
+                menuIcon.classList.toggle('active');
+                offScreenMenu.classList.toggle('active');
+            })
+        </script>
 
         
     </body>
