@@ -8,9 +8,22 @@
 </head>
 
     <body>
+        <button class="scroll-up-btn">
+            <i class="arrow-up"></i>
+        </button>
+
         <header>
             <nav>
                 <div class="nav-container">
+
+                    <div class="off-screen-menu">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li>work</li>
+                            <li><a href="https://www.linkedin.com/in/samuelvegaserrano/" target="_blank">linkedin</a></li>
+                            <li><a href="https://bsky.app/profile/samvserrano.bsky.social" target="_blank">bluesky</a></li>
+                        </ul>
+                    </div>
 
                     <div class="menu-icon">
                         <span></span>
@@ -86,6 +99,26 @@
             CONJURED UP BY ME, SAMUEL &#128512</p>
         </footer>
 
+        <script>
+            const btn = document.querySelector(".scroll-up-btn");
+
+            btn.addEventListener("click", () => {
+                document.documentElement.scrollTo ({
+                    top: 0,
+                    behavior: "smooth",
+                });
+            });
+
+
+            const menuIcon = document.querySelector('.menu-icon');
+            
+            const offScreenMenu = document.querySelector('.off-screen-menu');
+
+            menuIcon.addEventListener('click', () => {
+                menuIcon.classList.toggle('active');
+                offScreenMenu.classList.toggle('active');
+            })
+        </script>
         
     </body>
 </html>
